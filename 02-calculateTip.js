@@ -1,4 +1,5 @@
 function calculateTip(billAmount, tipPercentage) {
+    
   const percentage = (tipPercentage * billAmount) / 100;
   return percentage
 }
